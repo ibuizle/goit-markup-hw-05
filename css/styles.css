@@ -587,6 +587,7 @@ ul {
 
 .subscribe-container{
     min-width: 453px;
+    margin-left: auto;
 }
 
 .subscribe-title{
@@ -629,6 +630,7 @@ ul {
     min-width: 165px;
     height: 40px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 16px;
@@ -642,7 +644,7 @@ ul {
     letter-spacing: 0.04em;
     cursor: pointer;
     background-color: #4d5ae5;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-button:hover,
