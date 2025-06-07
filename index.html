@@ -447,7 +447,7 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="user-phone" class="form-label">Phone</label>
+                    <label for="user-phone" type="tel" class="form-label">Phone</label>
                     <div class="input-container">
                         <input 
                         type="text" 
@@ -473,6 +473,7 @@
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
                     </div>
+
                     <div class="form-group">
                         <label for="user-comment"
                         class="form-label">Comment</label>
@@ -483,25 +484,17 @@
                         placeholder="Text input"></textarea>          
                     </div>
                     <div class="checkbox-container">
-                        <input 
+                        <input
                         type="checkbox" 
                         id="user-privacy" 
                         name="user-privacy" 
                         value="true" 
                         class="visually-hidden">
-                        <label for="user-privacy" 
-                        class="checkbox-label">I accept the terms and conditions of the</label>          
-                    </div>
-                    <div class="form-group">
                         <label 
-                        for="user-comment" 
-                        class="form-label">Comment</label>
-                        <textarea 
-                        id="user-comment" 
-                        name="user-comment" 
-                        class="form-textarea" 
-                        placeholder="Text input"></textarea>              
+                        for="user-privacy" 
+                        class="checkbox-label">I accept the terms and conditions of the</label>
                     </div>
+                    
                 </div>
             </form>
         </div>
