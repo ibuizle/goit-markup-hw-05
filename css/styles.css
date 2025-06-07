@@ -779,6 +779,10 @@ ul {
     margin-bottom: 8px;
 }
 
+.group{
+    margin-bottom: 16px;
+}
+
 .form-textarea {
     width: 100%;
     height: 120px;
@@ -813,8 +817,7 @@ ul {
     gap: 8px;
 }
 
-.checkbox-custom{
-    .checkbox-custom 
+.checkbox-custom{ 
             width: 16px;
             height: 16px;
             border: 1px solid rgba(46, 47, 66, 0.4);
