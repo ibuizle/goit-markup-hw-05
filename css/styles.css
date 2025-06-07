@@ -741,7 +741,7 @@ ul {
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: block;
-    margin-bottom: 8px;
+    margin-bottom: 4%;
 }
 
 .input-container {
@@ -776,7 +776,7 @@ ul {
 }
 
 .form-group {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .form-textarea {
