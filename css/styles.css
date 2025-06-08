@@ -812,7 +812,8 @@ ul {
 .checkbox-label {
     margin-left: 8px;
     font-size: 12px;
-    line-height: 1.5;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     color: #8e8f99;
 }
 
@@ -847,7 +848,7 @@ ul {
 
 .form-submit {
     display: block;
-    width:169px;
+    min-width:169px;
     height: 56px;
     margin: 0 auto;
     height: 56px;
