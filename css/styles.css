@@ -115,6 +115,7 @@ ul {
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
+    margin-bottom: 18px;
     
 }
 
@@ -623,7 +624,7 @@ ul {
 }
 
 .subscribe-input::placeholder {
-    color: rgba(255, 255, 255, 0.6); 
+    color: #fff;
 }
 
 .subscribe-button{
@@ -667,6 +668,12 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.modal-overlay.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
 
 .modal-window {
@@ -810,7 +817,6 @@ ul {
 }
 
 .checkbox-label {
-    margin-left: 8px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -818,6 +824,7 @@ ul {
 }
 
 .checkbox-custom{ 
+    margin-right: 8px;
             width: 16px;
             height: 16px;
             border: 1px solid rgba(46, 47, 66, 0.4);
@@ -851,6 +858,7 @@ ul {
     min-width:169px;
     height: 56px;
     margin: 0 auto;
+    border-radius: 4px;
     height: 56px;
     font-size: 16px;
     font-weight: 500;
@@ -872,11 +880,9 @@ ul {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition: opacity 250ms ease-in-out, visibility 250ms ease-in-out;
 }
 
 .backdrop.is-open {
     opacity: 1;
     visibility: visible;
-    pointer-events: auto;
-}
+    pointer-events: auto; }
